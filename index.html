@@ -9,13 +9,13 @@
   <body>
     <nav>
       <ul class="nav-menu">
-        <li>ABOUT</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#work">WORK</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
     <main>
-      <section class="about">
+      <section id="about">
         <div class="header">
           <h1>Hi, I'm Samira Estes-Garcia!</h1>
           <h2>I’m a full-stack web developer out of San Antonio, TX.</h2>
@@ -50,9 +50,82 @@
           </div>
         </div>
       </section>
-      <section class="work"></section>
-      <section class="contact"></section>
-      <section class="footer"></section>
+      <section id="work">
+        <h1>WORK</h1>
+        <div class="project-container">
+          <div class="project">
+            <div class="project-title">
+              <h2>Title</h2>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-title">
+              <h2>Title</h2>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-title">
+              <h2>Title</h2>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-title">
+              <h2>Title</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h1>CONTACT</h1>
+        <h2>
+          I am always looking for new opportunities and challenges. Contact me
+          if you are interested in working together!
+        </h2>
+        <form
+          action="https://formspree.io/moqwgnvp"
+          method="POST"
+          id="contact-form"
+        >
+          <label for="name"></label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name*"
+            required
+          />
+
+          <label for="email address"></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email*"
+            required
+          />
+
+          <label for="message"></label>
+          <textarea
+            type="text"
+            id="message"
+            name="message"
+            placeholder="Your Message*"
+            required
+          ></textarea>
+          <input id="submit" type="submit" value="GET IN CONTACT" />
+          <div class="success-modal animated fadeIn">
+            <img
+              src="assetsicons/success-img.svg"
+              alt="You successfully submitted the form!"
+            />
+          </div>
+        </form>
+      </section>
+      <section class="footer">
+        <footer>
+          winkle snoppy
+        </footer>
+      </section>
     </main>
   </body>
 </html>
