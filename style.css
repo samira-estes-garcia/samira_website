@@ -519,7 +519,7 @@ body {
     align-content: center;
   }
   .project {
-    width: 70vw;
+    /* width: 70vw; */
     margin: 0 auto;
   }
   .project-1,
@@ -566,10 +566,10 @@ body {
     font-size: 2.5vw;
   }
   .social-icons img {
-    width: 8vw;
+    width: 5vw;
   }
   .social-icons p1,
   .social-icons p2 {
-    font-size: small;
+    font-size: x-small;
   }
 }
