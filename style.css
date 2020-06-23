@@ -525,7 +525,11 @@ body {
 @media only screen and (max-width: 700px) {
   #contact form {
     width: 30em;
-    padding-bottom: 1%;
+    padding-bottom: 1rem;
+  }
+  #name,
+  #email {
+    padding: 3%;
   }
 }
 
