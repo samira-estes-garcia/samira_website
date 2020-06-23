@@ -454,6 +454,16 @@ body {
 
 /* elements start stacking */
 @media only screen and (max-width: 800px) {
+  h1 {
+    font-size: x-large !important;
+  }
+  h2 {
+    font-size: large !important;
+  }
+  #contact h2 {
+    font-weight: 300;
+  }
+
   .bio {
     display: flex;
     flex-direction: column;
@@ -511,15 +521,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  h1 {
-    font-size: x-large !important;
-  }
-  h2 {
-    font-size: large !important;
-  }
-  #contact h2 {
-    font-weight: 300;
-  }
   #contact form {
     width: 70vw;
   }

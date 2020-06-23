@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="14px" viewBox="0 0 21 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>more</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-292.000000, -9.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="more" transform="translate(292.000000, 9.000000)">
+                <path d="M20.34375,1 L0.65625,1 C0.293813133,1 0,0.776142375 0,0.5 C0,0.223857625 0.293813133,0 0.65625,0 L20.34375,0 C20.7061869,0 21,0.223857625 21,0.5 C21,0.776142375 20.7061869,1 20.34375,1 Z" id="Path"></path>
+                <path d="M20.34375,7 L0.65625,7 C0.293813133,7 0,6.77614237 0,6.5 C0,6.22385763 0.293813133,6 0.65625,6 L20.34375,6 C20.7061869,6 21,6.22385763 21,6.5 C21,6.77614237 20.7061869,7 20.34375,7 Z" id="Path"></path>
+                <path d="M20.34375,14 L0.65625,14 C0.293813133,14 0,13.7761424 0,13.5 C0,13.2238576 0.293813133,13 0.65625,13 L20.34375,13 C20.7061869,13 21,13.2238576 21,13.5 C21,13.7761424 20.7061869,14 20.34375,14 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
