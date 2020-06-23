@@ -477,6 +477,8 @@ body {
     font-size: small;
     padding: 3% 2.5%;
     margin-top: 5vw;
+
+    font-size: 2.5vw;
   }
   .social-icons img {
     width: 4vw;
@@ -537,27 +539,25 @@ body {
 }
 
 @media only screen and (max-width: 660px) {
-  /* .header h1 {
-    font-size: medium !important;
-  }
   .header h2 {
-    font-size: smaller !important;
-  } */
+    width: 60%;
+    margin: 0 auto;
+  }
   .bio {
     width: 80vw;
   }
-  .project-container {
-    width: 100vw;
-    margin: 0 auto;
+  #name,
+  #email {
+    padding-bottom: 3%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   #contact form {
     width: 70vw;
+    padding-bottom: 1rem;
   }
   #contact ::placeholder {
-    padding: 2.5%;
     font-weight: 300;
   }
   #submit {
