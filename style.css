@@ -111,14 +111,14 @@ body {
 /* work styles */
 #work {
   background-color: #eeeeee;
-  padding-bottom: 10%;
+  padding-bottom: 3%;
 }
 
 #work h1 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
-  font-size: 2.7em;
+  font-size: 2.9em;
   text-align: center;
   text-decoration: underline;
   letter-spacing: 0.4px;
@@ -127,10 +127,11 @@ body {
 
 .project-container {
   display: flex;
-  margin: 5%;
+  margin: 3%;
   flex-wrap: wrap;
   flex-direction: row;
   min-height: 100%;
+  justify-content: center;
 }
 
 .project {
@@ -138,6 +139,7 @@ body {
   flex-direction: column;
   width: 45%;
   margin-bottom: 5%;
+  height: 50%;
 }
 
 .project:hover {
@@ -148,10 +150,6 @@ body {
 .project img {
   width: 100%;
   border-radius: 0.2em;
-}
-
-.project-2-img {
-  height: 87%;
 }
 
 .project-1,
@@ -173,6 +171,10 @@ body {
   margin-top: -3%;
 }
 
+.project-title-2 {
+  margin-top: -4.5%;
+}
+
 .project-title span {
   float: right;
   color: #53c3eb;
@@ -184,34 +186,209 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -5%;
+  padding-top: 2.5%;
+  padding-bottom: 10%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 #contact h1 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
-  font-size: 2.7em;
+  font-size: 2.9em;
   text-align: center;
   text-decoration: underline;
   letter-spacing: 0.4px;
 }
 
 #contact h2 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-top: -2%;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 1px;
   text-align: center;
+  padding: 2%;
 }
 
+/* contact form styles */
 #contact form {
   background-color: #262626;
-  width: 45em;
+  width: 50em;
   display: flex;
   flex-direction: column;
   height: 30em;
+  margin: auto;
+  padding: 2rem 2rem 5rem;
+  border-radius: 0.3rem;
 }
+
+#contact label {
+  padding: 1rem 0 0.5rem;
+}
+
+#name,
+#email {
+  padding: 2%;
+  margin: 0 auto;
+  width: 95%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#message {
+  min-height: 15rem;
+  padding: 2%;
+  margin: 0 auto;
+  width: 95%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#contact ::placeholder {
+  color: #262626;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#submit {
+  width: 25%;
+  background-color: #53c3eb;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 2% 2.5%;
+  margin: 4% auto;
+  border-radius: 0.3em;
+  border: 1px solid #53c3eb;
+  -webkit-appearance: none;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+/* success-modal styles */
+.success-modal {
+  margin: 0 auto;
+  margin-top: -60%;
+  display: none;
+}
+
+.success-modal img {
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.animated {
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* footer styles */
+.footer {
+  background-color: #262626;
+  position: relative;
+  padding-bottom: 2%;
+}
+
+.up-icon {
+  background-color: #53c3eb;
+  width: 3%;
+  margin: auto;
+  padding: 1%;
+  right: 2%;
+  left: 3%;
+  top: -8%;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 0.2em;
+}
+
+.up-icon img {
+  width: 100%;
+  filter: invert(1);
+}
+
+.social-icons {
+  text-align: center;
+  justify-content: center;
+}
+
+.social-icons object {
+  margin-top: 5%;
+  margin-left: 5%;
+  filter: invert(1);
+}
+
+.social-icons object:hover {
+  /* filter: invert(1); */
+  cursor: pointer;
+  filter: invert(77%) sepia(76%) saturate(2633%) hue-rotate(167deg)
+    brightness(103%) contrast(84%);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  padding: 0.5rem;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.5rem;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  margin-left: -120px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.mail {
+  padding: 5%;
+}
+
+.linkedin,
+.github {
+  padding: 0.5%;
+}
+
+​
 
 /* media queries */
 

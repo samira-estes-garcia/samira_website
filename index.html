@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/jpg" href="images/favicon.png" />
     <title>Samira Estes-Garcia</title>
   </head>
   <body>
-    <nav>
+    <nav id="nav">
       <ul class="nav-menu">
-        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#nav">ABOUT</a></li>
         <li><a href="#work">WORK</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
@@ -54,21 +55,21 @@
         <h1>WORK</h1>
         <div class="project-container">
           <div class="project project-1">
-            <img src="images/ATX Quiz.png" />
+            <a href="https://github.com/samira-estes-garcia/ATX-Quiz" target="_blank"><img src="images/ATX Quiz.png" /></a>
             <div class="project-title">
               <p>ATX Quiz App<span>HTML, CSS, JavaScript, jQuery</span></span></p>
             </div>
           </div>
           <div class="project project-2">
-            <img src="images/wishlistar-img.png" class="project-2-img" />
-            <div class="project-title">
-              <p>Wishlista<span>Ruby, ActiveRecord, Sinatra, SQL</span>r</p>
+            <a href="https://github.com/samira-estes-garcia/wishlistar" target="_blank"><img src="images/wishlistar-img.png" class="project-2-img" /></a>
+            <div class="project-title project-title-2">
+              <p>Wishlista<span>Ruby, ActiveRecord, Sinatra, SQL, Bulma</span>r</p>
             </div>
           </div>
           <div class="project project-3">
-            <img src="images/daily-meals-img.png" />
+            <a href="https://github.com/samira-estes-garcia/daily_meals" target="_blank"><img src="images/daily-meals-img.png" /></a>
             <div class="project-title">
-              <p>Daily Meals<span>Ruby</span></p>
+              <p>Daily Meals<span>Ruby, CLI</span></p>
             </div>
           </div>
           <div class="project project-4">
@@ -81,7 +82,7 @@
       <section id="contact">
         <h1>CONTACT</h1>
         <h2>
-          I am always looking for new opportunities and challenges. Contact me
+          I am always looking for new opportunities and challenges.<br> Contact me
           if you are interested in working together!
         </h2>
         <form
@@ -126,9 +127,33 @@
       </section>
       <section class="footer">
         <footer>
-          winkle snoppy
+          <div class="up-icon">
+            <img src="assetsicons/up-arrow.svg" alt="up arrow" />
+          </div>
+          <div class="social-icons">
+            <div class="tooltip">
+              <object type="image/svg+xml" data="assetsicons/envelope.svg" class="mail">
+              </object>
+              <span class="tooltiptext">samira.estes.garcia@gmail.com</span>
+            </div>
+            <a
+              href="https://github.com/samira-estes-garcia"
+              target="_blank"
+            >
+              <object type="image/svg+xml" data="assetsicons/github-image.svg" class="github"></object>
+            </a> 
+            <a
+              href="https://www.linkedin.com/in/samira-estes-garcia/"
+              target="_blank"
+            >
+              <object type="image/svg+xml" data="assetsicons/linkedin.svg" class="linkedin"></object>
+            </a>
+          </div>
         </footer>
       </section>
     </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
