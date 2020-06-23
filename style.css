@@ -465,6 +465,9 @@ body {
   #contact ::placeholder {
     font-size: small;
   }
+  #submit {
+    font-size: small;
+  }
   .social-icons object {
     width: 4vw;
   }
@@ -520,9 +523,6 @@ body {
   #contact form {
     width: 30em;
     padding-bottom: 1%;
-  }
-  #submit {
-    font-size: 1.7vw;
   }
 }
 
