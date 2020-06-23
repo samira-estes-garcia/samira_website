@@ -325,7 +325,7 @@ body {
   width: 3%;
   margin: auto;
   padding: 1%;
-  right: 2%;
+  right: 4%;
   left: 3%;
   top: -8%;
   cursor: pointer;
@@ -343,22 +343,14 @@ body {
   justify-content: center;
 }
 
-/* .obj-span {
-  display: inline-block;
-} */
-
 .social-icons a {
   text-decoration: none;
-
-  /* position: relative;
-  z-index: 1; */
 }
 
 .social-icons img {
   margin-top: 5%;
   margin-left: 2.5%;
   filter: invert(1);
-  /* z-index: -1; */
 }
 
 .social-icons img:hover {
@@ -485,7 +477,7 @@ body {
     padding: 3% 2.5%;
     margin-top: 5vw;
   }
-  .social-icons object {
+  .social-icons img {
     width: 4vw;
   }
   .footer {
@@ -575,7 +567,7 @@ body {
     margin-top: 8vw;
     font-size: 2.5vw;
   }
-  .social-icons object {
+  .social-icons img {
     width: 6vw;
   }
   .social-icons p1,
