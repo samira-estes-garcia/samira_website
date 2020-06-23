@@ -140,7 +140,7 @@ body {
   width: 45%;
   margin-bottom: 5%;
   height: 50%;
-  border-radius: 0.3em;
+  /* border-radius: 0.3em; */
 }
 
 .project:hover {
@@ -452,6 +452,7 @@ body {
   }
   .project-title span {
     font-size: smaller;
+    margin-top: 5px;
   }
   /**/
   .bio {
@@ -467,6 +468,7 @@ body {
   }
   #submit {
     font-size: small;
+    padding: 3% 2.5%;
   }
   .social-icons object {
     width: 4vw;
