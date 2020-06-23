@@ -343,18 +343,25 @@ body {
   justify-content: center;
 }
 
+/* .obj-span {
+  display: inline-block;
+} */
+
 .social-icons a {
   text-decoration: none;
+
+  /* position: relative;
+  z-index: 1; */
 }
 
-.social-icons object {
+.social-icons img {
   margin-top: 5%;
   margin-left: 2.5%;
   filter: invert(1);
+  /* z-index: -1; */
 }
 
-.social-icons object:hover {
-  /* filter: invert(1); */
+.social-icons img:hover {
   cursor: pointer;
   filter: invert(77%) sepia(76%) saturate(2633%) hue-rotate(167deg)
     brightness(103%) contrast(84%);
@@ -389,9 +396,16 @@ body {
   padding: 5%;
 }
 
+/* .mail:hover {
+  cursor: pointer;
+  filter: invert(77%) sepia(76%) saturate(2633%) hue-rotate(167deg)
+    brightness(103%) contrast(84%);
+} */
+
 .linkedin,
 .github {
   padding: 0.5%;
+  /* position: relative; */
 }
 
 .copyright img {
