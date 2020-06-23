@@ -475,10 +475,9 @@ body {
   }
   #submit {
     font-size: small;
-    padding: 3% 2.5%;
+    /* padding: 3% 2.5%;
     margin-top: 5vw;
-
-    font-size: 2.5vw;
+    font-size: 2.5vw; */
   }
   .social-icons img {
     width: 4vw;
@@ -556,7 +555,7 @@ body {
 @media only screen and (max-width: 600px) {
   #contact form {
     width: 70vw;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0;
   }
   #contact ::placeholder {
     font-weight: 300;
