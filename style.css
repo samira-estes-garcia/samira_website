@@ -517,10 +517,10 @@ body {
   .project-container {
     flex-direction: column;
     align-content: center;
+    margin: 0 auto;
   }
   .project {
-    /* width: 70vw; */
-    margin: 0 auto;
+    width: 70vw;
   }
   .project-1,
   .project-3 {
