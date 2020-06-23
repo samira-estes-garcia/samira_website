@@ -246,9 +246,9 @@ body {
 }
 
 #contact ::placeholder {
-  color: #262626;
+  color: #6d7278;
   font-size: 1.7em;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 #submit {
