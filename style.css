@@ -343,6 +343,10 @@ body {
   justify-content: center;
 }
 
+.social-icons a {
+  text-decoration: none;
+}
+
 .social-icons object {
   margin-top: 5%;
   margin-left: 2.5%;
@@ -475,6 +479,9 @@ body {
   .project-1,
   .project-3 {
     margin-right: 0;
+  }
+  #contact ::placeholder {
+    font-size: medium;
   }
   .up-icon {
     display: none;
