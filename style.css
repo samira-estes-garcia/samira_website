@@ -452,7 +452,7 @@ body {
   }
   .project-title span {
     font-size: smaller;
-    margin-top: 5px;
+    margin-top: 3px;
   }
   /**/
   .bio {
@@ -469,6 +469,7 @@ body {
   #submit {
     font-size: small;
     padding: 3% 2.5%;
+    margin: 2% auto;
   }
   .social-icons object {
     width: 4vw;
