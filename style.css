@@ -518,10 +518,10 @@ body {
   .project-container {
     flex-direction: column;
     align-content: center;
-    flex-wrap: nowrap;
   }
   .project {
     width: 70vw;
+    margin: 0 auto;
   }
   .project-1,
   .project-3 {
@@ -556,7 +556,7 @@ body {
 @media only screen and (max-width: 600px) {
   #contact form {
     width: 70vw;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
   }
   #contact ::placeholder {
     font-weight: 300;
@@ -567,10 +567,10 @@ body {
     font-size: 2.5vw;
   }
   .social-icons img {
-    width: 6vw;
+    width: 8vw;
   }
   .social-icons p1,
   .social-icons p2 {
-    font-size: smaller;
+    font-size: small;
   }
 }
