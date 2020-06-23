@@ -448,7 +448,7 @@ body {
     font-size: xx-large !important;
   }
   h2 {
-    font-size: x-large !important;
+    font-size: large !important;
   }
   .project-title span {
     font-size: smaller;
@@ -459,17 +459,17 @@ body {
   }
   /* ipad iteration 06/23/2020 @ 12:20 PM */
   #contact form {
-    width: 30em;
-    padding: 1rem 1rem 2.5rem;
+    width: 35em;
+    padding: 1rem 2rem 2rem;
   }
   #contact ::placeholder {
-    font-size: smaller;
+    font-size: small;
   }
   .social-icons object {
-    width: 3vw;
+    width: 4vw;
   }
   .footer {
-    font-size: x-small;
+    font-size: small;
   }
 }
 
@@ -479,7 +479,7 @@ body {
     font-size: x-large !important;
   }
   h2 {
-    font-size: large !important;
+    font-size: medium !important;
   }
   #contact h2 {
     font-weight: 300;
