@@ -534,7 +534,7 @@ body {
 @media only screen and (max-width: 700px) {
   #contact form {
     width: 30em;
-    padding-bottom: 1rem;
+    padding: 0.5rem 1rem 0.2rem;
   }
 }
 
@@ -555,7 +555,6 @@ body {
 @media only screen and (max-width: 600px) {
   #contact form {
     width: 70vw;
-    padding-bottom: 0;
   }
   #contact ::placeholder {
     font-weight: 300;
