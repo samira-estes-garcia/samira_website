@@ -469,7 +469,7 @@ body {
   #submit {
     font-size: small;
     padding: 3% 2.5%;
-    margin: 3% auto;
+    margin-top: 5vw;
   }
   .social-icons object {
     width: 4vw;
@@ -529,13 +529,22 @@ body {
   }
   #name,
   #email {
-    padding: 3%;
+    padding: 5%;
   }
 }
 
 @media only screen and (max-width: 660px) {
+  .header h1 {
+    font-size: medium !important;
+  }
+  .header h2 {
+    font-size: smaller !important;
+  }
   .bio {
     width: 80vw;
+  }
+  .project-container {
+    width: 100vw;
   }
 }
 
@@ -549,7 +558,14 @@ body {
   }
   #submit {
     width: 35vw;
-    margin-top: 5vw;
+    margin-top: 8vw;
     font-size: 2.5vw;
+  }
+  .social-icons object {
+    width: 6vw;
+  }
+  .social-icons p1,
+  .social-icons p2 {
+    font-size: smaller;
   }
 }
