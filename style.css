@@ -443,12 +443,33 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
+  /* ipad iteration 06/23/2020 @ 12:20 PM */
+  h1 {
+    font-size: xx-large !important;
+  }
+  h2 {
+    font-size: x-large !important;
+  }
+  .project-title span {
+    font-size: smaller;
+  }
+  /**/
   .bio {
     font-size: x-small;
   }
+  /* ipad iteration 06/23/2020 @ 12:20 PM */
   #contact form {
-    width: 40em;
+    width: 30em;
     padding: 1rem 1rem 2.5rem;
+  }
+  #contact ::placeholder {
+    font-size: smaller;
+  }
+  .social-icons object {
+    width: 3vw;
+  }
+  .footer {
+    font-size: x-small;
   }
 }
 
@@ -490,17 +511,8 @@ body {
   .project-3 {
     margin-right: 0;
   }
-  #contact ::placeholder {
-    font-size: medium;
-  }
   .up-icon {
     display: none;
-  }
-  .social-icons object {
-    width: 5vw;
-  }
-  .footer {
-    font-size: small;
   }
 }
 
