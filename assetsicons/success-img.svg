@@ -16,8 +16,8 @@
             <tspan x="113.077637" y="182">Success! Your form has </tspan>
             <tspan x="155.411621" y="211">been submitted.</tspan>
         </text>
-        <text id="We-will-get-back-to" font-family="Arial" font-size="20" font-weight="600" fill="#262626">
-            <tspan x="108.347656" y="247">We will get back to you shortly.</tspan>
+        <text id="I-will-get-back-to" font-family="Arial" font-size="20" font-weight="600" fill="#262626">
+            <tspan x="108.347656" y="247">I will get back to you shortly.</tspan>
         </text>
     </g>
 </svg>
