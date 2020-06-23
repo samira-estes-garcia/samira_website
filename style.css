@@ -249,6 +249,7 @@ body {
   color: #6d7278;
   font-size: 1.7em;
   font-weight: 400;
+  overflow: visible;
 }
 
 #submit {
@@ -533,24 +534,21 @@ body {
     width: 30em;
     padding-bottom: 1rem;
   }
-  #name,
-  #email {
-    padding: 5%;
-  }
 }
 
 @media only screen and (max-width: 660px) {
-  .header h1 {
+  /* .header h1 {
     font-size: medium !important;
   }
   .header h2 {
     font-size: smaller !important;
-  }
+  } */
   .bio {
     width: 80vw;
   }
   .project-container {
     width: 100vw;
+    margin: 0 auto;
   }
 }
 
