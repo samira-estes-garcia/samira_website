@@ -518,6 +518,7 @@ body {
   .project-container {
     flex-direction: column;
     align-content: center;
+    flex-wrap: nowrap;
   }
   .project {
     width: 70vw;
