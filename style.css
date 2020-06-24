@@ -516,7 +516,7 @@ body {
   }
   .project-container {
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     margin: 0 auto;
   }
   .project {
