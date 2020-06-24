@@ -475,9 +475,8 @@ body {
   }
   #submit {
     font-size: small;
-    padding: 3% 2.5%;
-    /* margin-top: 5vw;
-    font-size: 2.5vw; */
+    margin: 0 auto;
+    margin-top: 2vw;
   }
   .social-icons img {
     width: 4vw;
