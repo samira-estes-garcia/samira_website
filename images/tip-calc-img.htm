@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://samira-estes-garcia.github.io/tip-calc/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./tip-calc-img_files/style.css">
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <!-- <button class="test">Click Me</button>
+    <div class="test-html"></div> -->
+
+    <div class="tip-calc">
+      <legend class="title">TIP CALCULATOR</legend>
+      <div class="calc">
+        <form>
+          <div class="user-entry">
+            <label class="bill-amt" for="orig-total">BILL AMOUNT</label>
+            <input id="orig-total" type="text" placeholder="0.00" required=""><br>
+            <!-- <div class="error"></div> -->
+
+            <label for="people-num"># OF PEOPLE</label>
+            <input type="text" id="people-num" value="1" required="">
+            <br>
+
+            <label class="tip-percent" for="tip-percent">TIP %</label>
+            <select id="tip-percent">
+              <option value="0.3">30%</option>
+              <option value="0.2">20%</option>
+              <option value="0.15" selected="">15%</option>
+              <option value="0.1">10%</option>
+            </select>
+          </div>
+          <input type="submit" value="CALCULATE TOTAL" class="submit">
+        </form>
+      </div>
+      <div class="display-total" style="display: block;">
+        <div class="flex-container">
+          <div class="bill-flex">
+            <div>YOUR TIP</div>
+            <p>$<span class="total-tip">0.00</span></p>
+          </div>
+          <div class="bill-flex">
+            <div>YOUR TOTAL</div>
+            <p>$<span class="total-bill">0.00</span></p>
+          </div>
+        </div>
+        <div class="reset-btn">
+          <button class="reset">RESET</button>
+        </div>
+      </div>
+    </div>
+    <script src="./tip-calc-img_files/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="./tip-calc-img_files/index.js"></script>
+  
+
+</body></html>

@@ -139,7 +139,7 @@ body {
   flex-direction: column;
   width: 45%;
   margin-bottom: 5%;
-  height: 50%;
+  /* height: 50%; */
   /* border-radius: 0.3em; */
 }
 
@@ -159,8 +159,12 @@ body {
 }
 
 .project-4 {
-  background-color: lightgray;
-  padding-top: 31%;
+  background-color: white;
+}
+
+.project-1 img,
+.project-4 img {
+  height: 115%;
 }
 
 .project-title {
@@ -173,8 +177,16 @@ body {
   padding-left: 3%;
 }
 
-.project-title-2 {
+.project-title-1 {
+  margin-top: 8.9%;
+}
+
+.project-title-3 {
   margin-top: -4.5%;
+}
+
+.project-title-4 {
+  margin-top: 15%;
 }
 
 .project-title span {

@@ -1,0 +1,134 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/*  */
+.tip-calc {
+  width: 50%;
+  height: 75%;
+  background-color: rgb(35, 41, 48);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: white;
+  border: 5px solid black;
+}
+
+.title {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 5%;
+  font-weight: 800;
+  font-size: 2em;
+  background-color: rgb(39, 45, 54);
+}
+
+.calc {
+  margin-bottom: 10%;
+}
+
+.user-entry {
+  background-color: rgb(39, 45, 54);
+  border: 1px solid black;
+  padding: 5%;
+  padding-bottom: 10%;
+}
+
+form {
+  margin: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+label {
+  font-weight: 800;
+  font-size: 1em;
+  margin-right: 10%;
+}
+
+input {
+  margin-bottom: 5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  border-radius: 0.5em;
+  text-align: center;
+  width: 25%;
+}
+
+.tip-percent {
+  margin-right: 10%;
+}
+
+.submit {
+  display: block;
+  margin: 0 auto;
+  float: none;
+  margin-top: 5%;
+  background-color: rgb(125, 214, 168);
+  width: 45%;
+  font-weight: 500;
+}
+
+.submit:hover,
+.reset:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.display-total {
+  display: none;
+  margin: 5%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgb(125, 214, 168);
+  background-color: rgb(39, 45, 54);
+  padding: 5%;
+}
+
+.bill-flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1em;
+}
+
+.total-tip {
+  margin-right: 1%;
+}
+
+.total-tip,
+.total-bill {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.reset-btn {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reset-btn button {
+  background-color: rgb(125, 214, 168);
+  width: 40%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  border-radius: 0.5em;
+  margin-top: 5%;
+  font-weight: 500;
+}
+
+/* #302f2f; */
