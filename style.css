@@ -156,6 +156,7 @@ body {
 .project-1,
 .project-3 {
   margin-right: 5%;
+  width: 45.5%;
 }
 
 .project-1,
@@ -163,10 +164,10 @@ body {
   background-color: white;
 }
 
-.project-1 img,
+/* .project-1 img,
 .project-4 img {
   height: 115%;
-}
+} */
 
 .project-title {
   background-color: #262626;
@@ -179,11 +180,11 @@ body {
 }
 
 .project-title-1 {
-  margin-top: 8.9%;
+  margin-top: 10%;
 }
 
 .project-title-3 {
-  margin-top: -4.5%;
+  margin-top: -4%;
 }
 
 .project-title-4 {
