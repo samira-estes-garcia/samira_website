@@ -125,20 +125,20 @@ body {
   padding-top: 5%;
 }
 
-.project-container {
+/* .project-container {
   display: flex;
   margin: 3%;
   flex-wrap: wrap;
   flex-direction: row;
   min-height: 100%;
   justify-content: center;
-}
-
+} */
+/* 
 .project {
   display: flex;
-  flex-direction: column;
-  width: 45%;
-  margin-bottom: 5%;
+  /* flex-direction: column; */
+  /* width: 45%;
+  margin-bottom: 5%; */
   /* height: 50%; */
   /* border-radius: 0.3em; */
 }
@@ -190,7 +190,7 @@ body {
   float: right;
   color: #53c3eb;
   padding-right: 1%;
-}
+} */
 
 /* contact styles */
 #contact {
