@@ -462,10 +462,6 @@ body {
   h2 {
     font-size: large !important;
   }
-  .project-title span {
-    font-size: smaller;
-    margin-top: 3px;
-  }
   /**/
   .bio {
     font-size: x-small;
@@ -519,26 +515,6 @@ body {
     align-self: center;
     margin: 0;
   }
-  .project-container {
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-  }
-  .project {
-    width: 70vw;
-    align-content: center;
-  }
-  .project-1,
-  .project-3 {
-    margin-right: 0;
-  }
-  .project-title {
-    text-align: center;
-  }
-  .project-title span {
-    float: none;
-    display: block;
-  }
   .up-icon {
     display: none;
   }
@@ -548,6 +524,9 @@ body {
   #contact form {
     width: 30em;
     padding: 0.5rem 1rem 0.2rem;
+  }
+  .info-container {
+    flex-direction: column;
   }
 }
 
