@@ -133,7 +133,8 @@ body {
 .card {
   background-color: white;
   margin: 5% 15%;
-  box-shadow: 0 0 5px 1px #eeeeee;
+  /* box-shadow: 0 0 5px 1px #eeeeee; */
+  box-shadow: 0 0 5px 1px #f6f7f8;
   border-radius: 0.2em;
   display: flex;
 }
@@ -455,18 +456,24 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-  /* ipad iteration 06/23/2020 @ 12:20 PM */
-  h1 {
+  .header h1,
+  #work h1,
+  #contact h1 {
     font-size: xx-large !important;
   }
-  h2 {
+  .header h2,
+  #contact h2 {
     font-size: large !important;
   }
-  /**/
   .bio {
     font-size: x-small;
   }
-  /* ipad iteration 06/23/2020 @ 12:20 PM */
+  .description h2 {
+    font-size: x-large;
+  }
+  .description h3 {
+    font-size: 1.1em;
+  }
   #contact form {
     width: 35em;
     padding: 1rem 2rem 2rem;
@@ -489,17 +496,19 @@ body {
 
 /* elements start stacking */
 @media only screen and (max-width: 800px) {
-  h1 {
+  .header h1,
+  #work h1,
+  #contact h1 {
     font-size: x-large !important;
   }
-  h2 {
+  .header h2,
+  #contact h2 {
     font-size: medium !important;
   }
   #contact h2 {
     font-weight: 300;
     width: 80%;
   }
-
   .bio {
     display: flex;
     flex-direction: column;
@@ -515,6 +524,19 @@ body {
     align-self: center;
     margin: 0;
   }
+  .info-container {
+    flex-direction: column;
+  }
+  .description {
+    margin: 0 auto;
+  }
+  .description h2 {
+    margin: 5% 0;
+  }
+  .description h3,
+  .description p {
+    margin-bottom: 5%;
+  }
   .up-icon {
     display: none;
   }
@@ -525,9 +547,6 @@ body {
     width: 30em;
     padding: 0.5rem 1rem 0.2rem;
   }
-  .info-container {
-    flex-direction: column;
-  }
 }
 
 @media only screen and (max-width: 660px) {
@@ -537,6 +556,13 @@ body {
   }
   .bio {
     width: 80vw;
+  }
+  .description h2 {
+    margin: 7% 0;
+  }
+  .description h3,
+  .description p {
+    margin-bottom: 7%;
   }
   #name,
   #email {
@@ -566,5 +592,17 @@ body {
   }
   .copyright img {
     width: 3%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .description h2 {
+    font-size: 1.4em;
+  }
+  .description h3 {
+    font-size: 1em;
+  }
+  .description p {
+    font-size: 0.9em;
   }
 }
