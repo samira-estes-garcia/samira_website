@@ -395,16 +395,9 @@ body {
   padding: 5%;
 }
 
-/* .mail:hover {
-  cursor: pointer;
-  filter: invert(77%) sepia(76%) saturate(2633%) hue-rotate(167deg)
-    brightness(103%) contrast(84%);
-} */
-
 .linkedin,
 .github {
   padding: 0.5%;
-  /* position: relative; */
 }
 
 .copyright img {
