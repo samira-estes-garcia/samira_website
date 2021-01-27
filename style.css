@@ -188,6 +188,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
   font-size: small;
+  border-radius: 0.3em;
 }
 
 /* contact styles */
@@ -452,11 +453,11 @@ body {
   .header h1,
   #work h1,
   #contact h1 {
-    font-size: xx-large !important;
+    font-size: xx-large;
   }
   .header h2,
   #contact h2 {
-    font-size: large !important;
+    font-size: large;
   }
   .bio {
     font-size: x-small;
@@ -492,11 +493,11 @@ body {
   .header h1,
   #work h1,
   #contact h1 {
-    font-size: x-large !important;
+    font-size: x-large;
   }
-  .header h2,
+
   #contact h2 {
-    font-size: medium !important;
+    font-size: medium;
   }
   #contact h2 {
     font-weight: 300;
@@ -517,6 +518,11 @@ body {
     align-self: center;
     margin: 0;
   }
+
+  .p-container p {
+    font-size: medium;
+  }
+
   .info-container {
     flex-direction: column;
   }
@@ -544,7 +550,7 @@ body {
 
 @media only screen and (max-width: 660px) {
   .header h2 {
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
   }
   .bio {
@@ -589,13 +595,27 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
+  .header h2 {
+    width: 80%;
+  }
   .description h2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
-  .description h3 {
-    font-size: 1em;
-  }
+  .description h3,
   .description p {
     font-size: 0.9em;
+  }
+  #contact form {
+    height: 28em;
+  }
+  #contact button {
+    margin-top: 5vw;
+  }
+  .social-icons img {
+    width: 7.5vw;
+  }
+  .p-1,
+  .p-2 {
+    font-size: small;
   }
 }
